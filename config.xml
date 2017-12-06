@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<server>
+    <ip>
+        10.0.100.100
+    </ip>
+    <port>
+        9502
+    </port>
+    <username>
+        weblogic
+    </username>
+    <password>
+        Password123
+    </password>
+</server>
+<credential>
+    <relativePath>
+        ../cred.txt
+    </relativePath>
+</credential>

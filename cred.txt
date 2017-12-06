@@ -1,0 +1,2 @@
+login=weblogic
+pwd=password
