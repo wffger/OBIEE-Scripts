@@ -1,0 +1,8 @@
+﻿#进入WLST
+cd $WL_HOME/server/bin
+ . ./setWLSEnv.sh
+java weblogic.WLST
+connect("weblogic","password","host:port")
+
+#执行脚本
+execfile('/home/oracle/wlst_scripts/w0101_createUser.py')
